@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #2E2E2E;
+    background-color: #F5F5F5;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #e8f5e9a6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    width: 200px; /* Adjust size */
+    z-index: 4; /* Ensures the logo appears above the hero image */
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.language-icons {
+    position: absolute;
+    top: 5px;
+    right: 120px;
+    display: flex;
+    gap: 5px;
+    z-index: 4;
+}
+
+.language-icons img {
+    transform: scale(0.8);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.language-icons img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2E2E2E;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+  
+.hero {
+    height: 100vh;
+    background: url('./assets/videos/20250324_143052-CINEMATIC.mp4') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 80px;
+    padding-top: 200px; /* Move text higher */
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    z-index: 1; /* Ensures hero image is below other elements */
+}
+
+.hero h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.hero p {
+    position: relative;
+    z-index: 2;
+    font-size: 1.25rem;
+    max-width: 400px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.cta-button {
+    display: none; /* Remove the 'Reservar' button */
+}
+
+.cta-button:hover {
+    background-color: #388E3C;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #ffffffb9;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-background {
+    background: url('footer_leaf.png') no-repeat center center/cover;
+    height: 200px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #fff;
+}

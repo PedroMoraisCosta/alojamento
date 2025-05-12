@@ -3,153 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alojamento Casa da Serra</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            min-width: 200px; 
-        }
-
-        /* Secção 1: Cabeçalho com fundo ondulado na diagonal */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color: #D6BFAD; /* Cor base */
-            background-image:
-                url('https://iili.io/2kVnkRR.png'); /* Imagem de fundo, caso queira mostrar a imagem */
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            position: relative;
-            border-top-right-radius: 5px;
-        }
-
-        header img {
-            width: 150px;
-            border-radius: 100%;
-        }
-        .social-links a img{
-            width: 40px;
-            border-radius: 100%;
-        }
-
-        .social-links a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-
-        }
-
-        .secao-2 {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            padding: 40px;
-            /* background-color: #D6BFAD; */
-            display: none;
-        }
-
-        .secao-2 div {
-            text-align: center;
-        }
-
-        .secao-2 img {
-            width: 100%;
-            max-width: 300px;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .secao-3 {
-            flex-direction: column;
-            display: flex;
-            background-color: #d6bfad63;
-            color: black;
-            padding: 5px 15px;
-            border-radius: 50px 50px 50px;
-            margin-left: 3px;
-        }
-
-        .secao-3 img {
-            /* width: 50%; */
-            margin-bottom: 20px;
-            height: auto;
-            border-radius: 75px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal offset | Vertical offset | Blur radius | Shadow color */
-         }
-
-        .secao-3 .texto {
-            width: 100%;
-            text-align: center;
-        }
-        .secao-3 .header
-        {
-            text-align: center;
-        }
-        .secao-4{
-            flex-direction: column;
-            display: flex;
-            margin-left: 3px;
-            border-radius: 50px 50px 50px;
-           
-        }
-        .secao-4 img {
-           
-            max-width: 99%;
-            height: auto;
-            display: block;
-            padding: 5px;
-        }
-       .image-container {
-            position: relative; /* Establishes the context for absolute positioning */
-            width: 100%; /* Make the container take up full width */
-            height: auto; /* Adjust height based on images */
-        }
-        .left-image {
-            border-radius: 50px; 
-            width: 100%; /* Makes the left image take full width */
-            height: auto;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .right-image {
-            position: absolute;
-            /* top: 0px; */
-            right: 0;
-            width: 20%;
-            height: 20%;
-            bottom: 11px;
-            z-index: 1; /* Ensure the right image stays on top */
-        }
-
-        @media (max-width: 768px) {
-            .secao-2 {
-                grid-template-columns: 1fr;
-            }
-
-            /* .secao-3 {
-                flex-direction: column;
-            } */
-
-            .secao-3 img {
-                width: 100%;
-               
-            }
-
-            .secao-3 .texto {
-                
-            }
-        }
-    </style>
+    <title>Casa da Serra</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Secção 4: Imagem Fixa -->
-    <div class="secao-4">
-        <div class="image-container">
-        <img class="left-image" src="index3.jpeg" alt="">
-    </div>
-</div>
+    <header>
+        <nav class="ms-3">
+            <ul class="nav">
+                <div class="language-icons">
+                    <img src="./assets/languages/pt.png" alt="Português">
+                    <img src="./assets/languages/fr.png" alt="Français">
+                    <img src="./assets/languages/en.png" alt="English">
+                </div> 
+            </ul>
+        </nav> 
+    </header>
 
+    <!-- Home Section with Hero Image -->
+    <section id="home" class="hero position-relative text-center text-white d-flex align-items-center justify-content-center p-0" style="height: 55vh; overflow: hidden;">
+        <video autoplay muted playsinline onended="this.pause(); this.currentTime = this.duration - 0.1;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+            <source src="./assets/videos/20250324_143052-CINEMATIC.mp4" type="video/mp4">
+            O seu navegador não suporta vídeo em HTML5.
+        </video>
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="Logo da Casa da Serra">
+        </div>
+        <div class="position-relative z-1 container">
+            <h1 class="display-4">Bem-vindo à Casa da Serra</h1>
+            <p class="lead">Um refúgio na natureza, perfeito para relaxar e recarregar energias.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>A Casa</h2>
+            <p>Com ambiente rústico e elegante, proporciona momentos inesquecíveis.</p>
+        </div>
+        <div class="feature">
+            <h2>O que Fazer</h2>
+            <p>Explore as maravilhas do Gerês com atividades e aventuras únicas.</p>
+        </div>
+        <div class="feature">   
+            <h2>Reservas</h2>
+            <p>Saiba como pode reservar</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-background"></div>
+        <p>&copy; 2025 Casa da Serra - Gerês, Portugal</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
