@@ -21,42 +21,51 @@
                 </ul>
             </nav> 
         </header>
-
-        <!-- Home Section with Hero Image -->
-        <section id="home" class="hero position-relative text-center text-white d-flex align-items-center justify-content-center p-0" style="height: 55vh; overflow: hidden;">
-            <video autoplay muted playsinline onended="this.pause(); this.currentTime = this.duration - 0.1;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                <source src="./assets/videos/20250324_143052-CINEMATIC.mp4" type="video/mp4">
-                O seu navegador não suporta vídeo em HTML5.
-            </video>
-            <div class="logo">
-                <img src="./assets/images/logo.png" alt="Logo da Casa da Serra">
-            </div>
-            <div class="position-relative z-1 container">
-                <h1 class="display-4">Bem-vindo à Casa da Serra</h1>
-                <p class="lead">Um refúgio na natureza, perfeito para relaxar e recarregar energias.</p>
-            </div>
-        </section>
-
-        <section class="features">
-            <div class="feature">
-                <h2>A Casa</h2>
-                <p>Com ambiente rústico e elegante, proporciona momentos inesquecíveis.</p>
-            </div>
-            <div class="feature">
-                <h2>O que Fazer</h2>
-                <p>Explore as maravilhas do Gerês com atividades e aventuras únicas.</p>
-            </div>
-            <div class="feature">   
-                <h2>Reservas</h2>
-                <p>Saiba como pode reservar</p>
-            </div>
-        </section>
-
-        <footer>
-            <div class="footer-background"></div>
-            <p>&copy; 2025 Casa da Serra - Gerês, Portugal</p>
-        </footer>
+        <div class="row">
+            <!-- Home Section with Hero Image -->
+            <section id="home" class="hero position-relative text-center text-white d-flex align-items-center justify-content-center p-0" style="height: 55vh; overflow: hidden;">
+                <video autoplay muted playsinline onended="this.pause(); this.currentTime = this.duration - 0.1;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                    <source src="./assets/videos/20250324_143052-CINEMATIC.mp4" type="video/mp4">
+                    O seu navegador não suporta vídeo em HTML5.
+                </video>
+                
+            </section>
         </div>
+        <div class="row center" >
+            <div class="logo col-sm-4 col-md-6 ">
+                    <img src="./assets/images/logo.png" alt="Logo da Casa da Serra">
+            </div>
+           <div class="col-sm-8 col-md-6 ">
+                    <h1 class="text-center">Bem-vindo à Casa da Serra</h1>
+                    <p class="text-center">Um refúgio na natureza, perfeito para relaxar e recarregar energias.</p>
+            </div>
+        </div>
+        <div class="row">
+                <div class="feature col-sm-4">
+                    <img class="groupimages" src="./assets/images/logo.png" alt="Logo da Casa da Serra">
+                    <h2>A Casa</h2>
+                    <p class="text-justify">Com ambiente rústico e elegante, proporciona momentos inesquecíveis.</p>
+                </div>
+                <div class="feature col-sm-4">
+                    <img class="groupimages" src="./assets/images/logo.png" alt="Logo da Casa da Serra">
+                    <h2>O que Fazer</h2>
+                    <p class="text-justify">Explore as maravilhas do Gerês com atividades e aventuras únicas.</p>
+                </div>
+                <div class="feature col-sm-4"> 
+                    <img class="groupimages" src="./assets/images/logo.png" alt="Logo da Casa da Serra">  
+                    <h2>Reservas</h2>
+                    <p class="text-justify">Saiba como pode reservar</p>
+                </div>
+        </div>
+            
+        
+        <footer>
+            <div class="container footer-background">
+
+                
+            </div>
+        </footer>
+    </div>
         <script src="script.js"></script>
 </body>
 </html>

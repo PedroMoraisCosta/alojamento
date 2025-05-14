@@ -31,6 +31,19 @@ header {
     width: 100px; 
 }
 
+.row {
+  display: flex;
+  align-items: center;      /* Alinha verticalmente ao centro */
+  justify-content: center;  /* Alinha horizontalmente ao centro */
+}
+
+.row center{
+    height: 300px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
 .logo img {
     width: 100%;
     height: auto;
@@ -147,7 +160,7 @@ footer p {
 @media(max-width:768px){
    
 body {
-        background-color: blue;
+        background-color: lightblue;
     }
 }
 
@@ -155,7 +168,7 @@ body {
 @media(min-width:768px){
    
 body {
-        background-color: red;
+        background-color: lightgoldenrodyellow;
     }
 }
 
