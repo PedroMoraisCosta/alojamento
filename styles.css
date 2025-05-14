@@ -138,3 +138,31 @@ footer p {
     background-color: #ffffff;
     color: #fff;
 }
+
+/*smartphones <768px*/
+@media(max-width:768px){
+   
+body {
+        background-color: blue;
+    }
+}
+
+/*tablets >=768px*/
+@media(min-width:768px){
+   
+body {
+        background-color: red;
+    }
+}
+
+/*desktops >=992px*/
+@media(min-width:992px){
+   
+body {
+        background-color: yellow;
+    }
+}
+
+
+
+
