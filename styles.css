@@ -145,8 +145,11 @@ nav a:hover {
 }
 
 .footer-background {
-    background: url('footer_leaf.png') no-repeat center center/cover;
+    background: url('./assets/images/leaf_background.jpg') no-repeat center center;
     height: 200px;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    background-size: cover;
 }
 
 footer p {
@@ -179,7 +182,3 @@ body {
         background-color: yellow;
     }
 }
-
-
-
-
