@@ -19,39 +19,35 @@
 
                     <!-- Left: Logo com ícones de idioma -->
                     <a class="navbar-brand d-flex align-items-center me-3" href="#">
-                        <img class="groupimages me-3" src="./assets/images/logo.png" alt="Logo da Casa da Serra">
-                        
-                        <!-- Language icons (junto ao logo) -->
-                        <div class="language-icons d-flex align-items-center">
-                            <img src="./assets/languages/pt.png" alt="Português" class="me-2">
-                            <img src="./assets/languages/fr.png" alt="Français" class="me-2">
-                            <img src="./assets/languages/en.png" alt="English">
-                        </div>
+                    <img class="groupimages me-3" src="./assets/images/logo.png" alt="Logo da Casa da Serra">
+                    <div class="language-icons d-flex align-items-center">
+                        <img src="./assets/languages/pt.png" alt="Português" class="me-2">
+                        <img src="./assets/languages/fr.png" alt="Français" class="me-2">
+                        <img src="./assets/languages/en.png" alt="English">
+                    </div>
                     </a>
 
-                    <!-- Center: Collapsible menu -->
-                    <div class="collapse navbar-collapse justify-content-center" id="menuNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#home">Início</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#alojamento">Alojamento</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#oquefazer">O Que Fazer</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#reservas">Reservas</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <!-- Right: Toggler button (aparece em mobile) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                    <!-- Right: Toggler button (para ecrãs pequenos) -->
-                    <div class="d-flex align-items-center">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <!-- Collapsible menu alinhado à direita -->
+                    <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="menuNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#home">Início</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#oquefazer">O Que Fazer</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#reservas">Reservas</a>
+                        </li>
+                    </ul>
                     </div>
                 </div>
             </nav>
