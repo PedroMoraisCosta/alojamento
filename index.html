@@ -22,9 +22,9 @@
                     <a class="navbar-brand d-flex align-items-center me-3" href="#">
                     <img class="groupimages me-3" src="./assets/images/logo.png" alt="Logo da Casa da Serra">
                     <div class="language-icons d-flex align-items-center">
-                        <img src="./assets/languages/pt.png" alt="Português" class="me-2">
-                        <img src="./assets/languages/fr.png" alt="Français" class="me-2">
-                        <img src="./assets/languages/en.png" alt="English">
+                        <img src="./assets/languages/pt.png" alt="Português" class="me-2" onclick="loadLanguage('pt')">
+                        <img src="./assets/languages/fr.png" alt="Français" class="me-2" onclick="loadLanguage('fr')">
+                        <img src="./assets/languages/en.png" alt="English" onclick="loadLanguage('en')">
                     </div>
                     </a>
 
@@ -37,16 +37,16 @@
                     <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="menuNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active" href="#home">Início</a>
+                        <a class="nav-link active" href="#home" data-i18n="home">Início</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galeria</a>
+                        <a class="nav-link" href="#galeria" data-i18n="gallery">Galeria</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#oquefazer">O Que Fazer</a>
+                        <a class="nav-link" href="#oquefazer" data-i18n="activities">O Que Fazer</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#reservas">Reservas</a>
+                        <a class="nav-link" href="#reservas" data-i18n="reservations">Reservas</a>
                         </li>
                     </ul>
                     </div>
@@ -66,31 +66,31 @@
             <!-- Section 1 -->
             <div class="row center middleSubSection1" >
                 <div class="col-sm-8 col-md-6">
-                    <h1 class="text-center middleSubSection1NoWrap">Bem-vindo à Casa da Serra</h1>
+                    <h1 class="text-center middleSubSection1NoWrap" data-i18n="welcome">Bem-vindo à Casa da Serra</h1>
                 </div>
             </div>
             <!-- Section 2 -->
               <div class="row center">
                 <div class="col-sm-8 col-md-6">
-                    <h4 class="text-center ">Um refúgio na natureza, perfeito para relaxar e recarregar energias.</h4>
+                    <h4 class="text-center" data-i18n="subtitle">Um refúgio na natureza, perfeito para relaxar e recarregar energias</h4>
                 </div>
               </div>
             <!-- Section 3 -->
             <div class="row">
                     <div class="feature col-sm-4"> 
                         <img class="groupimages" src="./assets/images/reservar.png" alt="Logo da Casa da Serra">  
-                        <h2>Reservas</h2>
-                        <p class="text-justify">Reserve sua estadia de forma simples e rápida.</p>
+                        <h2 data-i18n="bookings">Reservas</h2>
+                        <p class="text-justify" data-i18n="bookings_text">Reserve sua estadia de forma simples e rápida</p>
                     </div>
                     <div class="feature col-sm-4">
                         <img class="groupimages" src="./assets/images/a_casa.png" alt="Logo da Casa da Serra">
-                        <h2>A Casa</h2>
-                        <p class="text-justify">Com ambiente rústico e elegante, proporciona momentos inesquecíveis.</p>
+                        <h2 data-i18n="house">A Casa</h2>
+                        <p class="text-justify" data-i18n="house_text">Com ambiente rústico e elegante, proporciona momentos inesquecíveis</p>
                     </div>
                     <div class="feature col-sm-4">
                         <img class="groupimages" src="./assets/images/o_que_fazer.png" alt="Logo da Casa da Serra">
-                        <h2>O que Fazer</h2>
-                        <p class="text-justify">Explore as maravilhas do Gerês com atividades e aventuras únicas.</p>
+                        <h2 data-i18n="what_to_do">O que Fazer</h2>
+                        <p class="text-justify" data-i18n="what_to_do_text">Explore as maravilhas do Gerês com atividades e aventuras únicas</p>
                     </div>
             </div>
         </div>
@@ -100,14 +100,14 @@
                 <div class="row footerRow justify-content-end">
                     <!-- Links -->
                     <div class="col-sm-3 col-md-2 text-center text-sm-start">
-                        <h4>Links Úteis</h4>
+                        <h4 data-i18n="useful_links">Links Úteis</h4>
                         <p><a id="airbnb-link" target="_blank">Airbnb</a></p>
                         <p><a id="rentalia-link" target="_blank">Rentália</a></p>
                     </div>
                     
                     <!-- Contatos -->
                     <div class="col-sm-3 col-md-2 text-center text-sm-start">
-                        <h4>Contatos</h4>
+                        <h4 data-i18n="contacts">Contatos</h4>
                         <p>Agra-Vieira do Minho</p>
                         <p>Braga, Portugal</p> 
                         <p class="footerContactosHeight" >(+351) 938 167 861</p>
@@ -133,8 +133,10 @@
         </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lang-switcher.js"></script>
     <script src="script.js"></script>
     <script src="links-footer.js"></script>
+    
            
 </body>
 </html>

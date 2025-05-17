@@ -23,18 +23,3 @@ heroVideo.addEventListener('ended', () => {
   // Define o tempo para o penúltimo frame (~0.1s antes do fim)
   heroVideo.currentTime = heroVideo.duration - 0.1
 })
-
-function getLanguage () {
-  let idioma = navigator.language || navigator.userLanguage
-  
-  if (idioma.startsWith('fr')) {
-    return 'fr'
-  }
-  if (idioma.startsWith('pt')) {
-    return 'pt'
-  }
-  if (idioma.startsWith('en')) {
-    return 'en'
-  }
-  return 'en'
-}
