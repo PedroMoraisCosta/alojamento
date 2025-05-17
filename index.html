@@ -14,47 +14,7 @@
 <body>
     <div class="container-fluid paddingZero">
         <!-- Header -->
-       <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <div class="container-fluid d-flex align-items-center justify-content-between">
-
-                    <!-- Left: Logo com ícones de idioma -->
-                    <a class="navbar-brand d-flex align-items-center me-3" href="#">
-                    <img class="groupimages me-3" src="./assets/images/logo.png" alt="Logo da Casa da Serra">
-                    <div class="language-icons d-flex align-items-center">
-                        <img src="./assets/languages/pt.png" alt="Português" class="me-2" onclick="loadLanguage('pt')">
-                        <img src="./assets/languages/fr.png" alt="Français" class="me-2" onclick="loadLanguage('fr')">
-                        <img src="./assets/languages/en.png" alt="English" onclick="loadLanguage('en')">
-                    </div>
-                    </a>
-
-                    <!-- Right: Toggler button (aparece em mobile) -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Collapsible menu alinhado à direita -->
-                    <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="menuNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#home" data-i18n="home">Início</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#galeria" data-i18n="gallery">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#oquefazer" data-i18n="activities">O Que Fazer</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#reservas" data-i18n="reservations">Reservas</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-            </nav>
-
-        </header>
-    
+       <div id="header-placeholder"></div>    
         <!-- Video -->
         <section id="home" class="video hero position-relative text-center text-white d-flex align-items-center justify-content-center p-0" > 
                 <video class="video" autoplay muted playsinline onended="this.pause(); this.currentTime = this.duration - 0.1;" >
@@ -95,48 +55,15 @@
             </div>
         </div>
     </div>
-        <!-- Footer -->
-        <footer class="w-100 footerBackground">
-                <div class="row footerRow justify-content-end">
-                    <!-- Links -->
-                    <div class="col-sm-3 col-md-2 text-center text-sm-start">
-                        <h4 data-i18n="useful_links">Links Úteis</h4>
-                        <p><a id="airbnb-link" target="_blank">Airbnb</a></p>
-                        <p><a id="rentalia-link" target="_blank">Rentália</a></p>
-                    </div>
-                    
-                    <!-- Contatos -->
-                    <div class="col-sm-3 col-md-2 text-center text-sm-start">
-                        <h4 data-i18n="contacts">Contatos</h4>
-                        <p>Agra-Vieira do Minho</p>
-                        <p>Braga, Portugal</p> 
-                        <p class="footerContactosHeight" >(+351) 938 167 861</p>
-                        <p class="footerContactosHeight" >geral@alojamentocasadaserra.pt</p>
-                    </div>
-
-                    <!-- Redes Sociais -->
-                    <div class="col-sm-3 col-md-2">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a class="btn-social" href="https://www.facebook.com/casadaserra8082" target="_blank">
-                                    <i class="fab fa-facebook fa-2x"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-social" href="https://www.instagram.com/seu-usuario" target="_blank">
-                                    <i class="fab fa-instagram fa-2x"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-        </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lang-switcher.js"></script>
-    <script src="script.js"></script>
+    <div id="footer-placeholder"></div> 
+    <script src="architecture.js"></script>
     <script src="links.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="lang-switcher.js"></script>
     
+    
+  
            
 </body>
 </html>
