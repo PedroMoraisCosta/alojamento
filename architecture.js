@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
       data => (document.getElementById('header-placeholder').innerHTML = data)
     )
 
+  fetch('index-section.html')
+    .then(res => res.text())
+    .then(
+      data =>
+        (document.getElementById('index-section-placeholder').innerHTML = data)
+    )
+
   fetch('footer.html')
     .then(res => res.text())
     .then(
