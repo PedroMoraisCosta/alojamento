@@ -5,15 +5,36 @@ function loadLanguage (lang) {
   fetch(`./lang/${lang}.json`)
     .then(response => response.json())
     .then(translations => {
+      // Atualiza as labels com base no idioma
       document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n')
         if (translations[key]) {
           element.innerText = translations[key]
         }
       })
+
+      // Atualiza os links com base no idioma
+      updatelinks(lang)
     })
+}
+
+function updatelinks (lang) {
+  let component = document.getElementById('airbnb-link')
+  if (component && linksAirbnb[lang]) {
+    component.href = linksAirbnb[lang]
+  }
+
+  component = document.getElementById('rentalia-link')
+  if (component && linksRentalia[lang]) {
+    component.href = linksRentalia[lang]
+  }
 }
 
 function getLanguage () {
   return localStorage.getItem('selectedLanguage') || 'pt'
 }
+
+// Aplica a língua salva ao carregar a página
+document.addEventListener('DOMContentLoaded', () => {
+  loadLanguage(getLanguage())
+})
