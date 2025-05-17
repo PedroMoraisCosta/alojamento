@@ -63,6 +63,11 @@ body {
     object-fit: cover;
 }
 
+.middleSubSection1NoWrap{
+    white-space: nowrap;       /* Evita quebra de linha */
+    text-overflow: ellipsis;   /* Mostra "..." se ultrapassar */
+}
+
 .logo {
     height: 120px;
     width: 120px; 
@@ -286,8 +291,6 @@ nav a:hover {
 
 /*smartphones <768px*/
 @media(max-width:768px){
-   
-   
     .middleSubSection1 {
         color: white;
         left: 50%;
@@ -297,15 +300,22 @@ nav a:hover {
     .footerContactosHeight{
         margin-top: 1px
     }
+    .middleSubSection1NoWrap{
+        white-space: normal;      
+        text-overflow: unset;     
+    }
 
     
 }
 
 /*tablets >=768px*/
 @media(min-width:768px){
-    /* body {
-            background-color: lightgoldenrodyellow;
-    } */
+    .middleSubSection1 {
+        color: white;
+        left: 50%;
+        transform: translate(-0%, -80%);
+        z-index: 2;
+    }
 }
 
 
@@ -320,16 +330,12 @@ nav a:hover {
         background-attachment: fixed;  
     } */
 
-    .middleSection{
-        height: 500px;
-       
-        
-    }
+   
 
     .middleSubSection1 {
         color: white;
         left: 50%;
-        transform: translate(-0%, -80%);
+        transform: translate(-0%, -82%);
         z-index: 2;
     }
    
