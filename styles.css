@@ -307,11 +307,11 @@ nav a:hover {
     .groupimages {
         height: 50px;
         width: 50px;
-        background-color: yellow;
+        background-color: orangered;
         padding-bottom: 0px;
      }
     #home {
-        height: 75vh; /* ou altura fixa, se necessário */
+        height: 85vh; /* ou altura fixa, se necessário */
     }
 }
 
