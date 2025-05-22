@@ -304,8 +304,11 @@ nav a:hover {
         white-space: normal;      
         text-overflow: unset;     
     }
-
-    
+    .groupimages {
+        height: 75px;
+        width: 75px;
+        background-color: red;
+     }
 }
 
 /*tablets >=768px*/
