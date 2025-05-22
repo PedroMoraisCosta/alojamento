@@ -305,9 +305,9 @@ nav a:hover {
         text-overflow: unset;     
     }
     .groupimages {
-        height: 75px;
-        width: 75px;
-        background-color: red;
+        height: 50px;
+        width: 50px;
+        background-color: blue;
         padding-bottom: 0px;
      }
 }
