@@ -309,10 +309,8 @@ nav a:hover {
         width: 50px;
         background-color: green;
         padding-bottom: 0px;
+        display:none;
      }
-    #home {
-        height: 83vh; /* ou altura fixa, se necessário */
-    }
 }
 
 /*tablets >=768px*/
