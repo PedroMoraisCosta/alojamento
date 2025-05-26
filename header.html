@@ -1,37 +1,39 @@
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
                 <div class="container-fluid d-flex align-items-center justify-content-between">
-                    <!-- Left: Logo com ícones de idioma -->
-                    <a class="navbar-brand d-flex align-items-center me-3" href="#">
-                    <img class="groupimages me-3" src="./assets/images/logo.png" alt="Logo da Casa da Serra">
-                    <div class="language-icons d-flex align-items-center">
-                        <img src="./assets/languages/pt.png" alt="Português" class="me-2" onclick="loadLanguage('pt')">
-                        <img src="./assets/languages/fr.png" alt="Français" class="me-2" onclick="loadLanguage('fr')">
-                        <img src="./assets/languages/en.png" alt="English" onclick="loadLanguage('en')">
-                    </div>
-                    </a>
 
+
+                    <img class="text-header-size" src="./assets/images/TextoHeader.png">
                     <!-- Right: Toggler button (aparece em mobile) -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <!-- Collapsible menu alinhado à direita -->
-                    <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="menuNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a class="nav-link active" href="index.html#home" data-i18n="home">Início</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="gallery.html" data-i18n="gallery">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="todo.html" data-i18n="activities">O Que Fazer</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="reservations.html" data-i18n="reservations">Reservas</a>
-                        </li>
-                    </ul>
+                    <div class="collapse navbar-collapse justify-content-center text-uppercase" id="menuNavbar">
+
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#home" data-i18n="home">INÍCIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html" data-i18n="gallery">GALERIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="todo.html" data-i18n="activities">O QUE FAZER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="reservations.html" data-i18n="reservations">RESERVAS</a>
+                            </li>
+                        </ul>
+                        <!-- Left: Logo com ícones de idioma -->
+                        <a class="navbar-brand d-flex align-items-center me-3" href="#">
+                            <!--<img class="groupimages me-3" src="./assets/images/logo.png" alt="Logo da Casa da Serra">-->
+                            <div class="language-icons d-flex align-items-center">
+                                <img src="./assets/languages/pt.png" alt="Português" class="me-2" onclick="loadLanguage('pt')">
+                                <img src="./assets/languages/fr.png" alt="Français" class="me-2" onclick="loadLanguage('fr')">
+                                <img src="./assets/languages/en.png" alt="English" onclick="loadLanguage('en')">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </nav>

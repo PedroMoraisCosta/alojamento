@@ -10,8 +10,6 @@ body {
     background-color: rgba(191, 216, 159, 1)
 }
 
-
-
 .language-icons img {
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -21,29 +19,35 @@ body {
 
 .language-icons img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    /*box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);*/
 }
 
 .paddingZero{
     padding: 0 0 0 0;
 }
 
-.navbar{
+.navbar {
     margin-bottom: 0;
     border: 0;
     font-size: 15px !important;
-    letter-spacing: 4px;
-    opacity: 0.9;
+    letter-spacing: 1px;
+    /*opacity: 0.9;*/
 }
-.navbar li a, navbar .navbar-brand{
-    color: #2E2E2E;
-}
+
+.navbar li a, navbar .navbar-brand {
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        /*font-weight: bold;*/
+        font-family: 'Lucida Sans Unicode';
+    }
+
 .navbar-nav li a:hover {
-    transform: scale(0.9);
-    font-weight: 600;
+    /*transform: scale(0.95);*/
+    /*font-weight: 600;*/
+    text-decoration:underline;
 }
 .navbar-nav .nav-link.active {
-   font-weight: 600;
+   font-weight: 500;
 }
 
 .navbar-toggler,
@@ -52,6 +56,7 @@ body {
     border-color: transparent !important;
     box-shadow: none !important;
     outline: none !important;
+
 }
 
 .video{
@@ -212,7 +217,7 @@ nav a:hover {
 
 .hero {
     height: 85vh;
-    background: url('./assets/videos/20250324_143052-CINEMATIC.mp4') no-repeat center center/cover;
+    background: url('./assets/videos/20250324_143052-CINEMATIC.mp4') no-repeat center center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -343,6 +348,130 @@ nav a:hover {
         transform: translate(-0%, -82%);
         z-index: 2;
     }
-   
+
+    .align-center-row {
+        display: flex;
+        align-items: center; /* Vertically center */
+        justify-content: center; /* Horizontally center (optional) */
+        gap: 1rem; /* Space between image and text */
+    }
 }
 
+.top-left-overlay {
+    position: absolute;
+    top: 300px; /* Increased from 32px to 80px for better visibility */
+    left: 32px;
+    z-index: 2;
+    margin: 0;
+    width: auto;
+    max-width: 90vw;
+}
+
+.align-center-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.align-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center;
+    text-align: center;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.content-center {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-width: 90vw;
+}
+
+.align-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-top-left {
+    position: absolute;
+    top: 80px; /* Adjust as needed */
+    left: 80px; /* Adjust as needed */
+    z-index: 3;
+    width: 150px; /* 100px * 1.5 = 150px */
+    height: 150px; /* 100px * 1.5 = 150px */
+}
+
+.logo-text-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; /* Adjust spacing between image and text */
+    width: 150px; /* 100px * 1.5 = 150px */
+    height: 150px; /* 100px * 1.5 = 150px */
+}
+
+    .logo-text-flex img {
+        flex-shrink: 0;
+    }
+
+    .logo-text-flex h1,
+    .logo-text-flex h4 {
+        text-align: left;
+    }
+
+
+
+.content-center {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 90vw;
+}
+
+.logo-text-flex {
+    display: flex;
+    align-items: center;
+    //gap: 1rem; /* Adjust spacing as needed */
+}
+
+    .logo-text-flex img {
+        flex-shrink: 0;
+    }
+
+.logo-size {
+    width: 125px; /* 100px * 1.5 = 150px */
+    height: 125px; /* 100px * 1.5 = 150px */
+}
+
+.brand-strong {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8), 0 1px 0 #333;
+    font-size: 1.5rem;
+    font-family:  sans-serif
+}
+
+.text-header-size{
+    transform: scale(0.8);
+    padding: 12px 0px 0px 0px;
+}
