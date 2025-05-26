@@ -78,6 +78,11 @@ body {
     width: 120px; 
 }
 
+.logo-position{
+    z-index:3;
+    position:relative;
+}
+
 .groupimages{
     height: 100px;
     width: 100px; 
@@ -265,7 +270,9 @@ nav a:hover {
     max-width: 300px;
     text-align: center;
 }
-
+.logo-push-up{
+    margin-bottom: 0px;
+}
 
 
 .btn-outline{
@@ -309,13 +316,12 @@ nav a:hover {
         white-space: normal;      
         text-overflow: unset;     
     }
-    .groupimages {
-        height: 50px;
-        width: 50px;
-        background-color: green;
-        padding-bottom: 0px;
-        display:none;
-     }
+    .logo-position{
+        position:relative;
+    }
+    .logo-push-up{
+        margin-bottom: 15%;
+    }
 }
 
 /*tablets >=768px*/
@@ -325,6 +331,9 @@ nav a:hover {
         left: 50%;
         transform: translate(-0%, -80%);
         z-index: 2;
+    }
+     .logo-push-up{
+        margin-bottom: 10%;
     }
 }
 
@@ -354,6 +363,9 @@ nav a:hover {
         align-items: center; /* Vertically center */
         justify-content: center; /* Horizontally center (optional) */
         gap: 1rem; /* Space between image and text */
+    }
+    .logo-push-up{
+         margin-bottom: 5%;
     }
 }
 
