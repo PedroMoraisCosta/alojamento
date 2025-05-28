@@ -18,8 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 const heroVideo = document.querySelector('#home video')
-heroVideo.addEventListener('ended', () => {
-  heroVideo.pause()
-  // Define o tempo para o penúltimo frame (~0.1s antes do fim)
-  heroVideo.currentTime = heroVideo.duration - 0.1
-})
+if (heroVideo) {
+  heroVideo.addEventListener('ended', () => {
+    heroVideo.pause()
+    heroVideo.currentTime = heroVideo.duration - 0.1
+  })
+}
