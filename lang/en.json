@@ -12,5 +12,11 @@
   "bookings": "Reservations",
   "bookings_text": "Easily book your stay.",
   "useful_links": "Useful Links",
-  "contacts": "Contacts"
+  "contacts": "Contacts",
+  "exterior": "Exterior",
+  "pool": "Swiming pool",
+  "kitchen": "Kitchen",
+  "living_room": "Living rooms",
+  "bathrooms": "Bathrooms",
+  "rooms": "Rooms"
 }

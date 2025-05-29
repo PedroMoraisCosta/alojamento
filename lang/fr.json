@@ -1,5 +1,5 @@
 {
-   "home": "Accueil",
+  "home": "Accueil",
   "gallery": "Galerie",
   "activities": "Activités",
   "reservations": "Réservations",
@@ -12,5 +12,11 @@
   "bookings": "Réservations",
   "bookings_text": "Réservez facilement votre séjour.",
   "useful_links": "Liens Utiles",
-  "contacts": "Contacts"
+  "contacts": "Contacts",
+  "exterior": "Extérieur",
+  "pool": "Piscine",
+  "kitchen": "Cuisine",
+  "living_room": "Salons",
+  "bathrooms": "Salle de bains",
+  "rooms": "Chambres"
 }
