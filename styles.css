@@ -58,6 +58,7 @@ body {
     outline: none !important;
     background-color: #BFD8A1;
     margin-right: 25px;
+    opacity: 0.9;
 }
 .navbar>.container-fluid{
     margin-top:5px
