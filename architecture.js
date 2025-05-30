@@ -25,6 +25,16 @@ document.addEventListener('DOMContentLoaded', function () {
       })
   }
 
+   // Load index section if placeholder exists
+  const reservationsSectionEl = document.getElementById('reservations-section-placeholder')
+  if (reservationsSectionEl) {
+    fetch('reservations-section.html')
+      .then(res => res.text())
+      .then(data => {
+        reservationsSectionEl.innerHTML = data
+      })
+  }
+
   fetch('footer.html')
     .then(res => res.text())
     .then(

@@ -1,0 +1,29 @@
+.image-item{
+    width: 150px;
+    height: 150px;
+}
+.urls{
+    font-size: x-large;
+}
+.cta-button {
+    background: transparent;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    transition: background 0.3s;
+    letter-spacing:2px;
+  }
+  .cta-button:hover{
+    transform: scale(1.1);
+    
+  }
+  .cta-link:hover {
+    background: rgba(191, 216, 159, 1);
+     
+  }
+  .cta-link{
+    color: inherit;
+    text-decoration: none; 
+  }
