@@ -18,5 +18,7 @@
   "kitchen": "Cozinha",
   "living_room": "Salas de estar",
   "bathrooms": "Casas de banho",
-  "rooms": "Quartos"
+  "rooms": "Quartos",
+  "label-reserva1":"o que não pode faltar é a sua",
+  "label-reserva2":"RESERVA"
 }

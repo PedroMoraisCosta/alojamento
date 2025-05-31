@@ -18,5 +18,7 @@
   "kitchen": "Cuisine",
   "living_room": "Salons",
   "bathrooms": "Salle de bains",
-  "rooms": "Chambres"
+  "rooms": "Chambres",
+  "label-reserva1":"vous ne pouvez pas manquer votre",
+  "label-reserva2":"RÉSERVATION"
 }
