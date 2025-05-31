@@ -3,12 +3,6 @@
     height: 150px;
 }
 
-.booking-text{
-    /* font-family: 'Montserrat', sans-serif; */
-    color: black;
-    /* line-height: 2; */
-}
-
 .bookings-wrapper {
   max-width: 500px;           
   margin: 4px auto 0 auto;  
