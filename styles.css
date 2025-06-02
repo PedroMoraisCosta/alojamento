@@ -302,7 +302,9 @@ nav a:hover {
     z-index: 1;
 }
 
-
+.move-right {
+    margin-right: 0px;
+}
 
 /*smartphones <768px*/
 @media(max-width:768px){
@@ -325,6 +327,10 @@ nav a:hover {
     .logo-push-up{
         margin-bottom: 15%;
     }
+    .move-right {
+        text-align: end;
+        margin-right: 20px;
+    }
 }
 
 /*tablets >=768px*/
@@ -337,6 +343,10 @@ nav a:hover {
     }
      .logo-push-up{
         margin-bottom: 10%;
+    }
+    .move-right {
+        text-align: end;
+        margin-right: 20px;
     }
 }
 
