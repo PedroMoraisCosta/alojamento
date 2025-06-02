@@ -31,7 +31,7 @@ body {
     border: 0;
     font-size: 15px !important;
     letter-spacing: 1px;
-    /*opacity: 0.9;*/
+    /*opacity: 0.2;*/
 }
 
 .navbar li a, navbar .navbar-brand {
@@ -274,7 +274,7 @@ nav a:hover {
     text-align: center;
 }
 .logo-push-up{
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
 
 
@@ -467,7 +467,7 @@ nav a:hover {
 .logo-text-flex {
     display: flex;
     align-items: center;
-    //gap: 1rem; /* Adjust spacing as needed */
+    /*gap: 1rem;*/ /* Adjust spacing as needed */
 }
 
     .logo-text-flex img {
@@ -486,9 +486,11 @@ nav a:hover {
     font-family:  sans-serif
 }
 
-.text-header-size{
-    transform: scale(0.8);
-    padding: 12px 0px 0px 0px;
+.text-header-size {
+    width: 120px;
+    height: 120px;
+    /*transform: scale(0.5);*/
+    padding: 12px 12px 12px 12px;
 }
 
 .no-link {
