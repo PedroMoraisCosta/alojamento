@@ -490,3 +490,9 @@ nav a:hover {
     transform: scale(0.8);
     padding: 12px 0px 0px 0px;
 }
+
+.no-link {
+    text-decoration: none;
+    color: inherit;
+    /*cursor: default;*/
+}
