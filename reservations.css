@@ -6,7 +6,7 @@
 .bookings-wrapper {
   max-width: 500px;           
   margin: 4px auto 0 auto;  
-  padding-top: 2px;
+  padding-top: 3px;
   border-top: 2px solid black;
   text-align: center;
 }
