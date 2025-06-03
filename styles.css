@@ -305,6 +305,14 @@ nav a:hover {
 .move-right {
     margin-right: 0px;
 }
+.nav-panel{
+   background-color: transparent;
+}
+
+.nav-border-bottom
+{
+    border-bottom: 1px solid white;
+}
 
 /*smartphones <768px*/
 @media(max-width:768px){
@@ -329,7 +337,16 @@ nav a:hover {
     }
     .move-right {
         text-align: end;
+        text-align: end;
         margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .nav-panel{
+        background-color: rgb(0, 0, 0);
+        margin-left: 40%;
+        margin-right: 20px;
+        opacity: 0.9;
     }
 }
 
@@ -346,7 +363,16 @@ nav a:hover {
     }
     .move-right {
         text-align: end;
+        text-align: end;
         margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .nav-panel{
+        background-color: rgb(0, 0, 0);
+        margin-left: 60%;
+        margin-right: 20px;
+        opacity: 0.9;
     }
 }
 
@@ -379,6 +405,10 @@ nav a:hover {
     }
     .logo-push-up{
          margin-bottom: 5%;
+    }
+    .nav-panel{
+        background-color: transparent;
+         margin-left: 0px
     }
 }
 
