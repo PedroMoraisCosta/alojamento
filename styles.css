@@ -31,7 +31,6 @@ body {
     border: 0;
     font-size: 15px !important;
     letter-spacing: 1px;
-    /*opacity: 0.2;*/
 }
 
 .navbar li a, navbar .navbar-brand {
@@ -62,7 +61,7 @@ body {
     outline: none !important;
     background-color: #BFD8A1;
     margin-right: 25px;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 .navbar>.container-fluid{
     margin-top:5px
@@ -350,7 +349,7 @@ nav a:hover {
         background-color: rgb(0, 0, 0);
         margin-left: 40%;
         margin-right: 20px;
-        opacity: 0.8;
+        opacity: 0.7;
     }
     .navbar-nav .nav-link.active {
         font-weight: 500;
@@ -379,7 +378,7 @@ nav a:hover {
         background-color: rgb(0, 0, 0);
         margin-left: 60%;
         margin-right: 20px;
-        opacity: 0.8;
+        opacity: 0.7;
     }
     .navbar-nav .nav-link.active {
         font-weight: 500;
