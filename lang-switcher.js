@@ -19,12 +19,23 @@ function loadLanguage (lang) {
 }
 
 function updatelinks (lang) {
-  let component = document.getElementById('airbnb-link')
+  //Footer
+  let component = document.getElementById('airbnb-footer-link')
   if (component && linksAirbnb[lang]) {
     component.href = linksAirbnb[lang]
   }
 
-  component = document.getElementById('rentalia-link')
+  component = document.getElementById('rentalia-footer-link')
+  if (component && linksRentalia[lang]) {
+    component.href = linksRentalia[lang]
+  }
+  //Reservas
+  component = document.getElementById('airbnb-reservas-link')
+  if (component && linksAirbnb[lang]) {
+    component.href = linksAirbnb[lang]
+  }
+
+  component = document.getElementById('rentalia-reservas-link')
   if (component && linksRentalia[lang]) {
     component.href = linksRentalia[lang]
   }
