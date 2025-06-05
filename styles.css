@@ -41,13 +41,17 @@ body {
         font-family: 'Lucida Sans Unicode';
     }
 
-.navbar-nav li a:hover {
+/* .navbar-nav li a:hover {
     /*transform: scale(0.95);*/
     /*font-weight: 600;*/
-    text-decoration:underline;
-}
+    /* text-decoration:underline; 
+} */
 .navbar-nav .nav-link.active {
    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #BFD8A1 !important; 
 }
 
 .navbar-toggler,
