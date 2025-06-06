@@ -33,7 +33,17 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(data => {
         reservationsSectionEl.innerHTML = data
       })
-  }
+    }
+
+    // Load index section if placeholder exists
+    const todoSectionEl = document.getElementById('todo-section-placeholder')
+    if (todoSectionEl) {
+        fetch('todo-section.html')
+            .then(res => res.text())
+            .then(data => {
+                todoSectionEl.innerHTML = data
+            })
+    }
 
   fetch('footer.html')
     .then(res => res.text())
