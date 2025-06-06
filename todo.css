@@ -1,0 +1,117 @@
+/* ---------- Reset/normalização mínima ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Container centrado ---------- */
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+/* ---------- Cada secção (imagem + texto) ---------- */
+.section {
+    display: flex; /* <<< isto faz com que fique lado a lado */
+    align-items: flex-start;
+    gap: 32px;
+    margin-bottom: 44px;
+}
+
+/* ---------- Coluna da imagem ---------- */
+.img-col {
+    flex: 1 1 40%; /* 40% de largura base, mas flexível */
+    min-width: 280px; /* evita ficar demasiado pequeno */
+}
+
+    .img-col img {
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+        object-fit: cover;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+/* ---------- Coluna do texto ---------- */
+.text-col {
+    flex: 1 1 60%; /* 60% de largura base, mas flexível */
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .text-col h2 {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+
+    .text-col p {
+        font-size: 1.06rem;
+        line-height: 1.65;
+    }
+
+    /* ---------- Link de email ---------- */
+    .text-col a {
+        color: #0067B8;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .text-col a:hover {
+            text-decoration: underline;
+        }
+
+/* ---------- Responsividade para ecrãs mais pequenos ---------- */
+@media (max-width: 820px) {
+    .section {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .img-col,
+    .text-col {
+        min-width: 100%;
+    }
+}
+
+/*smartphones <768px*/
+@media(max-width:768px) {
+    .bookings-wrapper {
+        max-width: 380px;
+    }
+}
+/*tablets >=768px*/
+@media(min-width:768px) {
+    .bookings-wrapper {
+        max-width: 550px;
+    }
+}
+
+/*desktops >=992px*/
+@media(min-width:992px) {
+    .bookings-wrapper {
+        max-width: 600px;
+    }
+}
+
+
+.custom-mt-5 {
+    margin-top: 100px;
+}
+.bookings {
+    margin-top: 2px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bookings-wrapper {
+    max-width: 500px;
+    margin: 4px auto 0 auto;
+    padding-top: 3px;
+    border-top: 2px solid black;
+    text-align: center;
+}
