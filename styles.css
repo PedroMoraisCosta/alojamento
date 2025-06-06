@@ -107,6 +107,7 @@ body {
   
   justify-content: center;  /* Alinha horizontalmente ao centro */
   align-items: flex-start; /* colunas comecem do topo da linha */
+  margin: 0 auto;
 }
 
 .row center{
