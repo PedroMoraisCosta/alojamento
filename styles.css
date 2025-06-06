@@ -72,7 +72,7 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.video{
+.page-images{
     position: absolute;
     top: 0;
     left: 0;
@@ -248,13 +248,13 @@ nav a:hover {
     z-index: 1; /* Ensures hero image is below other elements */
 }
 
-.hero h1 {
+.page-titles {
     position: relative;
     z-index: 2;
-    font-size: 2rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 .hero p {

@@ -45,10 +45,6 @@
   background-color: #7FB800; 
 }
 
-.custom-mt{
-    margin-top: 100px;
-}
-
 
 
 /*smartphones <768px*/
@@ -56,17 +52,20 @@
    .bookings-wrapper {
         max-width: 380px;           
    }
+   
 }
 /*tablets >=768px*/
 @media(min-width:768px){
    .bookings-wrapper {
         max-width: 550px;           
    }
+   
 }
 
 /*desktops >=992px*/
 @media(min-width:992px){
     .bookings-wrapper {
         max-width: 600px;           
-   }
+    }
+    
 }
