@@ -3,8 +3,10 @@
   "gallery": "Galeria",
   "activities": "O Que Fazer",
   "reservations": "Reservas",
-  "welcome": "Bem-vindo à Casa da Serra",
-  "subtitle": "Um refúgio na natureza, perfeito para relaxar e recarregar energias.",
+  "welcome1": "Bem-vindo à",
+  "welcome2": "Casa da Serra",
+  "subtitle1": "Um refúgio na natureza,",
+  "subtitle2": "perfeito para relaxar e recarregar energias.",
   "house": "A Casa",
   "house_text": "Com ambiente rústico e elegante, proporciona momentos inesquecíveis.",
   "what_to_do": "O que Fazer",
@@ -19,6 +21,6 @@
   "living_room": "Salas de estar",
   "bathrooms": "Casas de banho",
   "rooms": "Quartos",
-  "label-reserva1":"o que não pode faltar é a sua",
-  "label-reserva2":"RESERVA"
+  "label-reserva1": "o que não pode faltar é a sua",
+  "label-reserva2": "RESERVA"
 }

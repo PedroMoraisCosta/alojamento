@@ -3,8 +3,10 @@
   "gallery": "Gallery",
   "activities": "Things to Do",
   "reservations": "Reservations",
-  "welcome": "Welcome to Casa da Serra",
-  "subtitle": "A nature retreat, perfect for relaxing and recharging.",
+  "welcome1": "Welcome to ",
+  "welcome2": "Casa da Serra",
+  "subtitle1": "A nature retreat,",
+  "subtitle2": "iperfect for relaxing and recharging.",
   "house": "The House",
   "house_text": "Rustic and elegant environment, providing unforgettable moments.",
   "what_to_do": "Things to Do",
@@ -19,6 +21,6 @@
   "living_room": "Living rooms",
   "bathrooms": "Bathrooms",
   "rooms": "Rooms",
-  "label-reserva1":"what you can´t miss is your",
-  "label-reserva2":"RESERVATION"
+  "label-reserva1": "what you can´t miss is your",
+  "label-reserva2": "RESERVATION"
 }

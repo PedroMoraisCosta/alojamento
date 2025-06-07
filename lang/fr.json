@@ -3,8 +3,10 @@
   "gallery": "Galerie",
   "activities": "Activités",
   "reservations": "Réservations",
-  "welcome": "Bienvenue à la Casa da Serra",
-  "subtitle": "Un refuge en pleine nature, idéal pour se détendre et se ressourcer.",
+  "welcome1": "Bienvenue à la ",
+  "welcome2": "Casa da Serra",
+  "subtitle1": "Un refuge en pleine nature,",
+  "subtitle2": "idéal pour se détendre et se ressourcer.",
   "house": "La Maison",
   "house_text": "Avec une ambiance rustique et élégante, elle offre des moments inoubliables.",
   "what_to_do": "Activités",
@@ -19,6 +21,6 @@
   "living_room": "Salons",
   "bathrooms": "Salle de bains",
   "rooms": "Chambres",
-  "label-reserva1":"vous ne pouvez pas manquer votre",
-  "label-reserva2":"RÉSERVATION"
+  "label-reserva1": "vous ne pouvez pas manquer votre",
+  "label-reserva2": "RÉSERVATION"
 }

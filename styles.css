@@ -7,13 +7,13 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
    min-width: 320px;
-    background-color: rgba(191, 216, 159, 1)
+    background-color: rgba(191, 216, 159, 1);
 }
 
 .language-icons img {
     cursor: pointer;
     transition: transform 0.2s ease;
-    padding-right: 10px;
+    /*padding-right: 10px;*/
     height:24px
 }
 
@@ -29,9 +29,11 @@ body {
 .navbar {
     margin-bottom: 0;
     border: 0;
-    font-size: 15px !important;
+    font-size: 15px !important; 
     letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 30%);
 }
+
 
 .navbar li a, navbar .navbar-brand {
         color: white;
@@ -61,7 +63,7 @@ body {
     outline: none !important;
     background-color: #BFD8A1;
     margin-right: 25px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .navbar>.container-fluid{
     margin-top:5px
@@ -236,7 +238,7 @@ nav a:hover {
 
 .hero {
     height: 85vh;
-    background: url('./assets/videos/20250324_143052-CINEMATIC.mp4') no-repeat center center;
+    background: url('./assets/videos/20250324_143052-CINEMATIC.jpg') no-repeat center center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -347,13 +349,16 @@ nav a:hover {
         margin-top: 20px;
     }
     .nav-panel{
-        background-color: rgb(0, 0, 0);
+        background-color: none;
         margin-left: 40%;
         margin-right: 20px;
-        opacity: 0.7;
     }
     .navbar-nav .nav-link.active {
         font-weight: 500;
+        border-bottom: 1px solid white;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 65%);
     }
 }
 
@@ -376,13 +381,12 @@ nav a:hover {
         margin-top: 20px;
     }
     .nav-panel{
-        background-color: rgb(0, 0, 0);
+        background-color: none ;
         margin-left: 60%;
         margin-right: 20px;
-        opacity: 0.7;
     }
-    .navbar-nav .nav-link.active {
-        font-weight: 500;
+        .ns-bar {
+        background-color: rgb(0 0 0 / 80%);
     }
 }
 
@@ -525,8 +529,8 @@ nav a:hover {
     }
 
 .logo-size {
-    width: 125px; /* 100px * 1.5 = 150px */
-    height: 125px; /* 100px * 1.5 = 150px */
+    width: 75px; /* 100px * 1.5 = 150px */
+    height: 75px; /* 100px * 1.5 = 150px */
 }
 
 .brand-strong {
