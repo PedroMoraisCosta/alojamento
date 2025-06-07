@@ -256,7 +256,7 @@ nav a:hover {
     z-index: 2;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    margin-bottom: 10px;
+    /*margin-bottom: 5px;*/
     color: #ffffff;
 }
 
@@ -339,7 +339,7 @@ nav a:hover {
         position:relative;
     }
     .logo-push-up{
-        margin-bottom: 15%;
+        margin-bottom: 20%;
     }
     .move-right {
         text-align: end;
@@ -358,7 +358,7 @@ nav a:hover {
         border-bottom: 1px solid white;
     }
     .navbar {
-        background-color: rgba(0, 0, 0, 65%);
+        background-color: rgba(0, 0, 0, 40%);
     }
 }
 
@@ -371,7 +371,7 @@ nav a:hover {
         z-index: 2;
     }
      .logo-push-up{
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
     .move-right {
         text-align: end;
