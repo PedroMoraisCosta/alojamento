@@ -27,7 +27,7 @@
 }
 .titles-size{
     /*margin-left: 15px;*/
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 15px;
     /*animation: zoomInOut 2s ease-in-out infinite;*/
 }
@@ -156,9 +156,9 @@
 }
 
 .divider-ornament {
-    width: 60%; /* largura do brasão */
-    height: 60%; /* altura do brasão */
-    background: url('./assets/images/brasao.PNG') center/contain no-repeat;
+    width: 190px; /* largura do brasão */
+    height: 35px; /* altura do brasão */
+    /*background: url('./assets/images/brasao.PNG') center/contain no-repeat;*/
     position: absolute;
     top: 55px;
     left: 50%;
