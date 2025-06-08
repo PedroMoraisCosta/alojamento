@@ -158,7 +158,7 @@
 .divider-ornament {
     width: 60%; /* largura do brasão */
     height: 60%; /* altura do brasão */
-    background: url('./assets/images/brasao.png') center/contain no-repeat;
+    background: url('./assets/images/brasao.PNG') center/contain no-repeat;
     position: absolute;
     top: 55px;
     left: 50%;
