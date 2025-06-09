@@ -23,5 +23,10 @@
   "rooms": "Chambres",
   "label-reserva1": "vous ne pouvez pas manquer votre",
   "label-reserva2": "RÉSERVATION",
-  "todo": "Activités"
+  "todo": "Activités",
+  "boat": "Bateau Touristique de Vieira do Minho",
+  "boat_desc": "Organisez des itinéraires pour vos clients ou pour visiter le Minho. À Vieira do Minho, le bateau touristique O Brancelhe propose une excursion unique et sereine d'une heure jusqu'au réservoir de Caniçada.",
+  "boat_contact": "barcoturistico@cm-vminho.pt",
+  "bot_contact2": "00 351 925 973 100 (Coût d'un appel vers le réseau national)"
+
 }

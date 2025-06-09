@@ -160,7 +160,7 @@
     height: 35px; /* altura do brasão */
     /*background: url('./assets/images/brasao.PNG') center/contain no-repeat;*/
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 50%;
     /*top: calc(50% + 0.5rem);*/ /* posiciona sobre a linha, centralizado */
     transform: translateX(-50%);
