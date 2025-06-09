@@ -23,5 +23,19 @@
   "rooms": "Rooms",
   "label-reserva1": "what you can´t miss is your",
   "label-reserva2": "RESERVATION",
-  "todo": "Things to do"
+  "todo": "Things to do",
+
+  "boat": "Tourist Boat of Vieira do Minho",
+  "boat_desc": "Organizes itineraries for its clients or for visiting Minho. In Vieira do Minho, the Tourist Boat - O Brancelhe provides a unique and serene 1-hour trip to the Caniçada Reservoir.",
+  "boat_contact": "barcoturistico@cm-vminho.pt",
+  "bot_contact2": "00 351 925 973 100 (Cost of a call to the national network)",
+
+  "Quinta_desc": "Enjoy a unique horse riding experience along the trails of Serra da Cabreira or through the steep streets of the villages.\n:: Tour of the farm\n:: Tour of the village of Agra\n:: Tour of the neighboring village\n:: Tour of Monte do Castelo\n:: Tour of the source of the River Ave.",
+  "Quinta_more_info": "For more information, please contact",
+  "quinta_contact2": "00 351 934 384 744 (Cost of a call to the national network)",
+
+  "roteiro": "Serra da Cabreira Route",
+  "roteiro_desc": "The essential itinerary for anyone visiting Serra da Cabreira.\nWhether on foot, by mountain bike or by car, Serra da Cabreira is a must-see for anyone visiting Vieira do Minho.\nAlong its slopes and along the banks of its rivers and streams, paths open up to natural landscapes that overflow with beauty. Each season of the year offers new charms and new challenges.\nWe suggest that you explore Serra da Cabreira through our suggested visits and discover places shaped by Nature and Man over the centuries.",
+
+  "pontos_interesse": "Serra da Cabreira - Points of interest"
 }

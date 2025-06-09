@@ -24,9 +24,18 @@
   "label-reserva1": "vous ne pouvez pas manquer votre",
   "label-reserva2": "RÉSERVATION",
   "todo": "Activités",
+
   "boat": "Bateau Touristique de Vieira do Minho",
   "boat_desc": "Organisez des itinéraires pour vos clients ou pour visiter le Minho. À Vieira do Minho, le bateau touristique O Brancelhe propose une excursion unique et sereine d'une heure jusqu'au réservoir de Caniçada.",
   "boat_contact": "barcoturistico@cm-vminho.pt",
-  "bot_contact2": "00 351 925 973 100 (Coût d'un appel vers le réseau national)"
+  "bot_contact2": "00 351 925 973 100 (Coût d'un appel vers le réseau national)",
 
+  "Quinta_desc": "Vivez une expérience équestre unique le long des sentiers de la Serra da Cabreira ou à travers les rues escarpées des villages.\n:: Visite de la ferme\n:: Visite du village d'Agra\n:: Visite du village voisin\n:: Visite de Monte do Castelo\n:: Visite de la source de la rivière Ave.",
+  "Quinta_more_info": "Pour plus d'informations, veuillez contacter",
+  "quinta_contact2": "00 351 934 384 744 (Coût d'un appel vers le réseau national)",
+
+  "roteiro": "Route de la Serra da Cabreira",
+  "roteiro_desc": "L'itinéraire incontournable pour quiconque visite la Serra da Cabreira. Que ce soit à pied, en VTT ou en voiture, la Serra da Cabreira est une étape incontournable pour quiconque visite Vieira do Minho. Le long de ses pentes et le long des rives de ses rivières et ruisseaux, des sentiers s'ouvrent sur des paysages naturels d'une beauté époustouflante. Chaque saison offre de nouveaux charmes et de nouveaux défis. Nous vous suggérons d'explorer la Serra da Cabreira grâce à nos suggestions de visites et de découvrir des lieux façonnés par la nature et l'homme au fil des siècles.",
+
+  "pontos_interesse": "Serra da Cabreira - Points d'intérêt"
 }

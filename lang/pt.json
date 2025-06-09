@@ -24,8 +24,18 @@
   "label-reserva1": "o que não pode faltar é a sua",
   "label-reserva2": "RESERVA",
   "todo": "O que fazer",
+
   "boat": "Barco Turístico de Vieira do Minho",
   "boat_desc": "Organiza roteiros para os seus clientes ou a visitar o Minho. Em Vieira do Minho, o Barco Turístico - O Brancelhe proporciona uma viagem única e serena de 1 hora na Albufeira da Caniçada.",
   "boat_contact": "barcoturistico@cm-vminho.pt",
-  "bot_contact2" "00 351 925 973 100 (Custo de uma chamada para a rede nacional)"
-}
+  "bot_contact2": "00 351 925 973 100 (Custo de uma chamada para a rede nacional)",
+
+  "Quinta_desc": "Desfrute de uma experiência única de passeio a cavalo pelos trilhos da Serra da Cabreira ou pelas ruelas íngremes das aldeias.\n:: Passeio na quinta\n:: Passeio pela Aldeia de Agra\n:: Passeio pela aldeia vizinha\n:: Passeio ao monte do Castelo\n:: Passeio à nascente do Rio Ave",
+  "Quinta_more_info": "Para mais informações, contacte",
+  "quinta_contact2": "00 351 934 384 744 (Custo de uma chamada para a rede nacional)",
+
+  "roteiro": "Roteiro Serra da Cabreira",
+  "roteiro_desc": "O roteiro essencial para quem visita a Serra da Cabreira.\nSeja a pé, de btt ou de viatura, a Serra da Cabreira é passagem obrigatória para quem visita Vieira do Minho.\nPelas suas encostas e nas margens dos seus rios e ribeiros abrem-se caminhos para cenários naturais que transbordam de beleza. Cada estação do ano proporciona-lhe novos encantos e novos desafios.\nPropomos-lhe que percorra a Serra da Cabreira através das nossas sugestões de visita e descubra locais moldados pela Natureza e pelo Homem ao longo dos séculos.",
+
+  "pontos_interesse": "Serra da Cabreira - Pontos de interesse"
+} 
