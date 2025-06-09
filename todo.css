@@ -131,8 +131,8 @@
 }
 
 .todo-title {
-    font-family: 'Merriweather', serif;
-    font-size: 3rem;
+    /*font-family: 'Merriweather', serif;*/
+    font-size: 2rem;
     color: #2e3a2b;
     display: inline-block;
     padding: 0 1rem;
@@ -142,13 +142,12 @@
 
 
 .divider-ornament {
-    width: 250px; /* largura do brasão */
-    height: 50px; /* altura do brasão */
+    width: 190px; /* largura do brasão */
+    height: 35px; /* altura do brasão */
     /*background: url('./assets/images/brasao.PNG') center/contain no-repeat;*/
     position: absolute;
-    top: 55px;
+    top: 50px;
     left: 50%;
-    /*padding-bottom: 20px;*/
     /*top: calc(50% + 0.5rem);*/ /* posiciona sobre a linha, centralizado */
     transform: translateX(-50%);
     z-index: 3;

@@ -23,5 +23,10 @@
   "rooms": "Quartos",
   "label-reserva1": "o que não pode faltar é a sua",
   "label-reserva2": "RESERVA",
-  "todo": "O que fazer"
+  "todo": "O que fazer",
+  "boat": "Barco Turístico de Vieira do Minho",
+  "boat_desc": "Está a organizar roteiros para os seus clientes ou a visitar o Minho. Em Vieira do Minho, o Barco Turístico - O Brancelhe proporciona uma viagem única e serena de 1 hora na Albufeira da Caniçada.",
+  "boat_contact": "barcoturistico@cm-vminho.pt"
+
+
 }

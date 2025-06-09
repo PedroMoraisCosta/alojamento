@@ -19,7 +19,7 @@
 }
 
 .titles-font {
-    font-family: 'Merriweather', serif;
+    /*font-family: 'Merriweather', serif;*/
     font-weight: 600;
     font-size: 25px;
     letter-spacing: 2px;
@@ -136,7 +136,7 @@
 }
 
 .gallery-title {
-    font-family: 'Merriweather', serif;
+    /*font-family: 'Merriweather', serif;*/
     font-size: 3rem;
     color: #2e3a2b;
     display: inline-block;
@@ -160,7 +160,7 @@
     height: 35px; /* altura do brasão */
     /*background: url('./assets/images/brasao.PNG') center/contain no-repeat;*/
     position: absolute;
-    top: 55px;
+    top: 50px;
     left: 50%;
     /*top: calc(50% + 0.5rem);*/ /* posiciona sobre a linha, centralizado */
     transform: translateX(-50%);
