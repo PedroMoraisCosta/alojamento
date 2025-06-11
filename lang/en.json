@@ -6,7 +6,7 @@
   "welcome1": "Welcome to ",
   "welcome2": "Casa da Serra",
   "subtitle1": "A nature retreat,",
-  "subtitle2": "iperfect for relaxing and recharging.",
+  "subtitle2": "perfect for relaxing and recharging",
   "house": "The House",
   "house_text": "Rustic and elegant environment, providing unforgettable moments.",
   "what_to_do": "Things to Do",
@@ -22,7 +22,7 @@
   "bathrooms": "Bathrooms",
   "rooms": "Rooms",
   "label-reserva1": "what you can´t miss is your",
-  "label-reserva2": "RESERVATION",
+  "label-reserva2": "Book",
   "todo": "Things to do",
 
   "boat": "Tourist Boat of Vieira do Minho",
@@ -37,5 +37,11 @@
   "roteiro": "Serra da Cabreira Route",
   "roteiro_desc": "The essential itinerary for anyone visiting Serra da Cabreira.\nWhether on foot, by mountain bike or by car, Serra da Cabreira is a must-see for anyone visiting Vieira do Minho.\nAlong its slopes and along the banks of its rivers and streams, paths open up to natural landscapes that overflow with beauty. Each season of the year offers new charms and new challenges.\nWe suggest that you explore Serra da Cabreira through our suggested visits and discover places shaped by Nature and Man over the centuries.",
 
-  "pontos_interesse": "Serra da Cabreira - Points of interest"
+  "pontos_interesse": "Serra da Cabreira - Points of interest",
+
+  "casa-title": "Casa da Serra",
+  "casa-desc": "Come and create unforgettable memories at Casa da Serra, the ideal place to share good times with family or friends. Surrounded by the imposing Serra da Cabreira, the house offers rest, socializing and fun with games, a swimming pool and nights under a starry sky. Here, nature invites you to experience pure contact and each day brings new stories to treasure.",
+  "guest": "up to 10 Guests",
+  "wifi": "Free Wifi",
+  "nature": "Nature"
 }
