@@ -101,10 +101,14 @@ body {
 }
 
 .groupimages{
-    height: 100px;
-    width: 100px; 
+    height: 80px;
+    width: 80px; 
 }
 
+.groupimages-card {
+    height: 30px;
+    width: 30px;
+}
 
 .row {
   display: flex;
@@ -282,6 +286,8 @@ nav a:hover {
     max-width: 300px;
     text-align: center;
 }
+
+
 .logo-push-up{
     margin-bottom: 100px;
 }
@@ -555,4 +561,50 @@ nav a:hover {
     text-decoration: none;
     color: inherit;
     /*cursor: default;*/
+}
+
+.container-index {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 10px 10px;
+}
+
+.row-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* CSS */
+.card-index {
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 85%;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-icon-index img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.card-title-index {
+    font-size: 1.25rem;
+    color: #2e3a2b;
+    margin-bottom: 1.5rem;
+}
+
+.image-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    vertical-align: middle
 }
