@@ -41,7 +41,12 @@
 
   "casa-title": "Casa da Serra",
   "casa-desc": "Venha criar memórias inesquecíveis na Casa da Serra, o local ideal para partilhar bons momentos em família ou entre amigos. Rodeada pela imponente Serra da Cabreira, a casa oferece descanso, convívio e diversão com jogos, piscina e noites de céu estrelado. Aqui, a natureza convida ao contacto puro e cada dia traz novas histórias para guardar.",
-  "guest": "10 Hóspedes",
+  "guest": "Até 12 Hóspedes",
   "wifi": "Wifi grátis",
-  "nature": "Natureza"
+  "nature": "Natureza",
+
+  "Nrooms": "5 Quartos",
+  "barbeque": "Churrasqueira",
+  "Kitchen": "Cozinha",
+  "games": "Jogos"
 } 

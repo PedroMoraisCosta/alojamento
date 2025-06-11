@@ -41,7 +41,12 @@
 
   "casa-title": "Casa da Serra",
   "casa-desc": "Venez créer des souvenirs inoubliables à la Casa da Serra, l'endroit idéal pour partager de bons moments en famille ou entre amis. Entourée par l'imposante Serra da Cabreira, la maison offre repos, convivialité et divertissement avec des jeux, une piscine et des nuits sous un ciel étoilé. Ici, la nature vous invite à un contact pur et chaque jour est une source d'histoires à chérir.",
-  "guest": "jusqu'à 10 invités",
+  "guest": "jusqu'à 12 invités",
   "wifi": "Wifi gratuit",
-  "nature": "Nature"
+  "nature": "Nature",
+
+  "Nrooms": "5 Chambres",
+  "barbecue": "Barbecue",
+  "Kitchen": "Cuisine",
+  "games": "Jeux"
 }

@@ -7,7 +7,7 @@ const linksRentalia = {
 
 /*Links Airbnb*/
 const linksAirbnb = {
-  pt: 'https://www.pixar.com/404',
-  fr: 'https://fr.airbnb.ch/hosting/listings',
-  en: 'https://www.pixar.com/404'
+    pt: 'https://www.airbnb.pt/rooms/567433869080498437?source_impression_id=p3_1739633113_P3H5Hl0XePaZZkuE&_set_bev_on_new_domain=1742298476_EAYTNkMmE4NjBlNj',
+    fr: 'https://fr.airbnb.ch/rooms/567433869080498437?source_impression_id=p3_1739633113_P3H5Hl0XePaZZkuE',
+    en: 'https://www.airbnb.co.uk/rooms/567433869080498437?source_impression_id=p3_1739633113_P3H5Hl0XePaZZkuE&_set_bev_on_new_domain=1742298476_EAYTNkMmE4NjBlNj'
 }
