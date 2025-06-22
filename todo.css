@@ -7,7 +7,7 @@
     vertical-align: middle
 }
 
-/* ---------- Reset/normalização mínima ---------- */
+/* ---------- Reset/normalizaï¿½ï¿½o mï¿½nima ---------- */
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@
     padding: 10px 10px;
 }
 
-/* ---------- Cada secção (imagem + texto) ---------- */
+/* ---------- Cada secï¿½ï¿½o (imagem + texto) ---------- */
 .section {
     display: flex; /* <<< isto faz com que fique lado a lado */
     align-items: flex-start;
@@ -31,7 +31,7 @@
 
 /* ---------- Coluna da imagem ---------- */
 .img-col {
-    flex: 1 1 40%; /* 40% de largura base, mas flexível */
+    flex: 1 1 40%; /* 40% de largura base, mas flexï¿½vel */
     min-width: 280px; /* evita ficar demasiado pequeno */
 }
 
@@ -45,7 +45,7 @@
 
 /* ---------- Coluna do texto ---------- */
 .text-col {
-    flex: 1 1 60%; /* 60% de largura base, mas flexível */
+    flex: 1 1 60%; /* 60% de largura base, mas flexï¿½vel */
     min-width: 320px;
     display: flex;
     flex-direction: column;
@@ -63,6 +63,13 @@
         line-height: 1.65;
     }
 
+  /* ---------- linha de texto ---------- */
+  .smartphoneMT-2  {
+    margin-top: 0px
+  }
+  .bigscreenMT-2  {
+    margin-top: 0px
+  }
     /* ---------- Link de email ---------- */
     .text-col a {
         color: #0067B8;
@@ -74,7 +81,7 @@
             text-decoration: underline;
         }
 
-/* ---------- Responsividade para ecrãs mais pequenos ---------- */
+/* ---------- Responsividade para ecrï¿½s mais pequenos ---------- */
 @media (max-width: 820px) {
     .section {
         flex-direction: column;
@@ -84,6 +91,9 @@
     .img-col,
     .text-col {
         min-width: 100%;
+    }
+    .smartphoneMT-2{
+        margin-top: 0.5rem !important;
     }
 }
 
@@ -104,6 +114,9 @@
 @media(min-width:992px) {
     .bookings-wrapper {
         max-width: 600px;
+    }
+   .bigscreenMT-2  {
+        margin-top: 0.5rem !important;
     }
 }
 
@@ -143,8 +156,8 @@
 
 
 .divider-ornament {
-    width: 190px; /* largura do brasão */
-    height: 35px; /* altura do brasão */
+    width: 190px; /* largura do brasï¿½o */
+    height: 35px; /* altura do brasï¿½o */
     /*background: url('./assets/images/brasao.PNG') center/contain no-repeat;*/
     position: absolute;
     top: 45px;
